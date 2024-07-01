@@ -15,7 +15,6 @@ int main(void)
     cardLength = CardLength();
     cardType = FindDigitAtIndex(0);
     int luhmCheck = LuhnCheck();
-    int test = FindDigitAtIndex(0);
 
     /* CODE FOR TESTING FUNCTIONS:
     printf("CARD NUMBER: %li\n", cardNumber);
